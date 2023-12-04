@@ -1,0 +1,1 @@
+SDA-project and newDiagrams contain Activity and useCase Diagrams

@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_1zk8oJLBEe6uqpEfzyRz7g" name="newDiagrams">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_12ZAEJLBEe6uqpEfzyRz7g">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Model" xmi:id="_IGJ8IJLCEe6uqpEfzyRz7g" name="usecase">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_IGJ8IZLCEe6uqpEfzyRz7g">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_IGJ8IpLCEe6uqpEfzyRz7g" name="Job Portal">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_IGJ8I5LCEe6uqpEfzyRz7g" name="Sign Up">
+        <include xmi:type="uml:Include" xmi:id="_IGJ8JJLCEe6uqpEfzyRz7g" addition="_IGJ8JZLCEe6uqpEfzyRz7g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_IGJ8JZLCEe6uqpEfzyRz7g" name="Fill Registration Form">
+        <include xmi:type="uml:Include" xmi:id="_IGJ8JpLCEe6uqpEfzyRz7g" addition="_IGJ8KZLCEe6uqpEfzyRz7g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_IGJ8J5LCEe6uqpEfzyRz7g" name="Login">
+        <include xmi:type="uml:Include" xmi:id="_IGJ8KJLCEe6uqpEfzyRz7g" addition="_IGJ8LpLCEe6uqpEfzyRz7g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_IGJ8KZLCEe6uqpEfzyRz7g" name="Check information format">
+        <extend xmi:type="uml:Extend" xmi:id="_IGJ8KpLCEe6uqpEfzyRz7g" extendedCase="_IGJ8K5LCEe6uqpEfzyRz7g" extensionLocation="_IGJ8LJLCEe6uqpEfzyRz7g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_IGJ8K5LCEe6uqpEfzyRz7g" name="Prompt error">
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_IGJ8LJLCEe6uqpEfzyRz7g" name="ExtensionPoint1"/>
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_IGJ8LZLCEe6uqpEfzyRz7g" name="ExtensionPoint2"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_IGJ8LpLCEe6uqpEfzyRz7g" name="Enter credentials">
+        <include xmi:type="uml:Include" xmi:id="_IGJ8L5LCEe6uqpEfzyRz7g" addition="_IGJ8KZLCEe6uqpEfzyRz7g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_IGJ8MJLCEe6uqpEfzyRz7g" name="See job listings">
+        <extend xmi:type="uml:Extend" xmi:id="_IGJ8MZLCEe6uqpEfzyRz7g" extendedCase="_IGJ8NJLCEe6uqpEfzyRz7g" extensionLocation="_IGJ8NZLCEe6uqpEfzyRz7g"/>
+        <include xmi:type="uml:Include" xmi:id="_IGJ8MpLCEe6uqpEfzyRz7g" addition="_IGJ8M5LCEe6uqpEfzyRz7g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_IGJ8M5LCEe6uqpEfzyRz7g" name="Provide job listings"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_IGJ8NJLCEe6uqpEfzyRz7g" name="Filter job listings">
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_IGJ8NZLCEe6uqpEfzyRz7g" name="ExtensionPoint1"/>
+        <include xmi:type="uml:Include" xmi:id="_IGJ8NpLCEe6uqpEfzyRz7g" addition="_IGJ8N5LCEe6uqpEfzyRz7g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_IGJ8N5LCEe6uqpEfzyRz7g" name="Provide filtered job listings"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_IGJ8OJLCEe6uqpEfzyRz7g" name="Select job opening">
+        <extend xmi:type="uml:Extend" xmi:id="_IGJ8OZLCEe6uqpEfzyRz7g" extendedCase="_IGJ8PJLCEe6uqpEfzyRz7g" extensionLocation="_IGJ8PZLCEe6uqpEfzyRz7g"/>
+        <include xmi:type="uml:Include" xmi:id="_IGJ8OpLCEe6uqpEfzyRz7g" addition="_IGJ8O5LCEe6uqpEfzyRz7g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_IGJ8O5LCEe6uqpEfzyRz7g" name="Provide job details"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_IGJ8PJLCEe6uqpEfzyRz7g" name="Apply to job">
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_IGJ8PZLCEe6uqpEfzyRz7g" name="ExtensionPoint1"/>
+        <include xmi:type="uml:Include" xmi:id="_IGJ8PpLCEe6uqpEfzyRz7g" addition="_IGJ8QJLCEe6uqpEfzyRz7g"/>
+        <include xmi:type="uml:Include" xmi:id="_IGJ8P5LCEe6uqpEfzyRz7g" addition="_IGJ8QZLCEe6uqpEfzyRz7g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_IGJ8QJLCEe6uqpEfzyRz7g" name="Record application"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_IGJ8QZLCEe6uqpEfzyRz7g" name="Notify successful application"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_IGKjMJLCEe6uqpEfzyRz7g" name="Job Seeker"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_IGKjMZLCEe6uqpEfzyRz7g" memberEnd="_IGKjNJLCEe6uqpEfzyRz7g _IGKjNZLCEe6uqpEfzyRz7g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IGKjMpLCEe6uqpEfzyRz7g" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IGKjM5LCEe6uqpEfzyRz7g" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKjNJLCEe6uqpEfzyRz7g" name="sign up" type="_IGJ8I5LCEe6uqpEfzyRz7g" association="_IGKjMZLCEe6uqpEfzyRz7g"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKjNZLCEe6uqpEfzyRz7g" name="job seeker" type="_IGKjMJLCEe6uqpEfzyRz7g" association="_IGKjMZLCEe6uqpEfzyRz7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_IGKjNpLCEe6uqpEfzyRz7g" name="System ( Job Portal system)"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_IGKjN5LCEe6uqpEfzyRz7g" memberEnd="_IGKjOpLCEe6uqpEfzyRz7g _IGKjO5LCEe6uqpEfzyRz7g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IGKjOJLCEe6uqpEfzyRz7g" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IGKjOZLCEe6uqpEfzyRz7g" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKjOpLCEe6uqpEfzyRz7g" name="check credentials" type="_IGJ8KZLCEe6uqpEfzyRz7g" association="_IGKjN5LCEe6uqpEfzyRz7g"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKjO5LCEe6uqpEfzyRz7g" name="system ( job portal system)" type="_IGKjNpLCEe6uqpEfzyRz7g" association="_IGKjN5LCEe6uqpEfzyRz7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_IGKjPJLCEe6uqpEfzyRz7g" memberEnd="_IGKjP5LCEe6uqpEfzyRz7g _IGKjQJLCEe6uqpEfzyRz7g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IGKjPZLCEe6uqpEfzyRz7g" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IGKjPpLCEe6uqpEfzyRz7g" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKjP5LCEe6uqpEfzyRz7g" name="login" type="_IGJ8J5LCEe6uqpEfzyRz7g" association="_IGKjPJLCEe6uqpEfzyRz7g"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKjQJLCEe6uqpEfzyRz7g" type="_IGKjMJLCEe6uqpEfzyRz7g" association="_IGKjPJLCEe6uqpEfzyRz7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_IGKjQZLCEe6uqpEfzyRz7g" memberEnd="_IGKjRJLCEe6uqpEfzyRz7g _IGKjRZLCEe6uqpEfzyRz7g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IGKjQpLCEe6uqpEfzyRz7g" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IGKjQ5LCEe6uqpEfzyRz7g" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKjRJLCEe6uqpEfzyRz7g" name="click job search" type="_IGJ8MJLCEe6uqpEfzyRz7g" association="_IGKjQZLCEe6uqpEfzyRz7g"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKjRZLCEe6uqpEfzyRz7g" name="job seeker" type="_IGKjMJLCEe6uqpEfzyRz7g" association="_IGKjQZLCEe6uqpEfzyRz7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_IGKjRpLCEe6uqpEfzyRz7g" memberEnd="_IGKjSZLCEe6uqpEfzyRz7g _IGKjSpLCEe6uqpEfzyRz7g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IGKjR5LCEe6uqpEfzyRz7g" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IGKjSJLCEe6uqpEfzyRz7g" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKjSZLCEe6uqpEfzyRz7g" name="usecase9" type="_IGJ8M5LCEe6uqpEfzyRz7g" association="_IGKjRpLCEe6uqpEfzyRz7g"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKjSpLCEe6uqpEfzyRz7g" name="system ( job portal system)" type="_IGKjNpLCEe6uqpEfzyRz7g" association="_IGKjRpLCEe6uqpEfzyRz7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_IGKjS5LCEe6uqpEfzyRz7g" memberEnd="_IGKjTpLCEe6uqpEfzyRz7g _IGKjT5LCEe6uqpEfzyRz7g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IGKjTJLCEe6uqpEfzyRz7g" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IGKjTZLCEe6uqpEfzyRz7g" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKjTpLCEe6uqpEfzyRz7g" name="provide filtered job listings" type="_IGJ8N5LCEe6uqpEfzyRz7g" association="_IGKjS5LCEe6uqpEfzyRz7g"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKjT5LCEe6uqpEfzyRz7g" name="system ( job portal system)" type="_IGKjNpLCEe6uqpEfzyRz7g" association="_IGKjS5LCEe6uqpEfzyRz7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_IGKjUJLCEe6uqpEfzyRz7g" memberEnd="_IGKjU5LCEe6uqpEfzyRz7g _IGKjVJLCEe6uqpEfzyRz7g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IGKjUZLCEe6uqpEfzyRz7g" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IGKjUpLCEe6uqpEfzyRz7g" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKjU5LCEe6uqpEfzyRz7g" name="select job opening" type="_IGJ8OJLCEe6uqpEfzyRz7g" association="_IGKjUJLCEe6uqpEfzyRz7g"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKjVJLCEe6uqpEfzyRz7g" name="job seeker" type="_IGKjMJLCEe6uqpEfzyRz7g" association="_IGKjUJLCEe6uqpEfzyRz7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_IGKjVZLCEe6uqpEfzyRz7g" memberEnd="_IGKjWJLCEe6uqpEfzyRz7g _IGKjWZLCEe6uqpEfzyRz7g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IGKjVpLCEe6uqpEfzyRz7g" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IGKjV5LCEe6uqpEfzyRz7g" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKjWJLCEe6uqpEfzyRz7g" name="provide job details" type="_IGJ8O5LCEe6uqpEfzyRz7g" association="_IGKjVZLCEe6uqpEfzyRz7g"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKjWZLCEe6uqpEfzyRz7g" name="system ( job portal system)" type="_IGKjNpLCEe6uqpEfzyRz7g" association="_IGKjVZLCEe6uqpEfzyRz7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_IGKjWpLCEe6uqpEfzyRz7g" memberEnd="_IGKjXZLCEe6uqpEfzyRz7g _IGKjXpLCEe6uqpEfzyRz7g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IGKjW5LCEe6uqpEfzyRz7g" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IGKjXJLCEe6uqpEfzyRz7g" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKjXZLCEe6uqpEfzyRz7g" name="record application" type="_IGJ8QJLCEe6uqpEfzyRz7g" association="_IGKjWpLCEe6uqpEfzyRz7g"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKjXpLCEe6uqpEfzyRz7g" name="system ( job portal system)" type="_IGKjNpLCEe6uqpEfzyRz7g" association="_IGKjWpLCEe6uqpEfzyRz7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_IGKjX5LCEe6uqpEfzyRz7g" memberEnd="_IGKjYpLCEe6uqpEfzyRz7g _IGKjY5LCEe6uqpEfzyRz7g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IGKjYJLCEe6uqpEfzyRz7g" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IGKjYZLCEe6uqpEfzyRz7g" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKjYpLCEe6uqpEfzyRz7g" name="notify successful application" type="_IGJ8QZLCEe6uqpEfzyRz7g" association="_IGKjX5LCEe6uqpEfzyRz7g"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKjY5LCEe6uqpEfzyRz7g" name="system ( job portal system)" type="_IGKjNpLCEe6uqpEfzyRz7g" association="_IGKjX5LCEe6uqpEfzyRz7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Activity" xmi:id="_IGKjZJLCEe6uqpEfzyRz7g" node="_IGKjpJLCEe6uqpEfzyRz7g _IGKjpZLCEe6uqpEfzyRz7g _IGKjppLCEe6uqpEfzyRz7g _IGKjqZLCEe6uqpEfzyRz7g _IGKjrpLCEe6uqpEfzyRz7g _IGKjsZLCEe6uqpEfzyRz7g _IGKjtJLCEe6uqpEfzyRz7g _IGKjtZLCEe6uqpEfzyRz7g _IGKjtpLCEe6uqpEfzyRz7g _IGKjt5LCEe6uqpEfzyRz7g _IGKjupLCEe6uqpEfzyRz7g _IGKjvZLCEe6uqpEfzyRz7g _IGKjwJLCEe6uqpEfzyRz7g _IGKjxZLCEe6uqpEfzyRz7g _IGKjyJLCEe6uqpEfzyRz7g _IGKjyZLCEe6uqpEfzyRz7g _IGKjzJLCEe6uqpEfzyRz7g _IGKjz5LCEe6uqpEfzyRz7g _IGKj0pLCEe6uqpEfzyRz7g _IGKj1ZLCEe6uqpEfzyRz7g _IGKj1pLCEe6uqpEfzyRz7g _IGKj15LCEe6uqpEfzyRz7g _IGKj2JLCEe6uqpEfzyRz7g _IGKj25LCEe6uqpEfzyRz7g _IGKj3pLCEe6uqpEfzyRz7g _IGKj4ZLCEe6uqpEfzyRz7g _IGKj4pLCEe6uqpEfzyRz7g _IGKj45LCEe6uqpEfzyRz7g _IGKj5JLCEe6uqpEfzyRz7g _IGKj5ZLCEe6uqpEfzyRz7g _IGKj6JLCEe6uqpEfzyRz7g _IGKj65LCEe6uqpEfzyRz7g _IGKj7JLCEe6uqpEfzyRz7g _IGKj7ZLCEe6uqpEfzyRz7g _IGKj7pLCEe6uqpEfzyRz7g _IGKj75LCEe6uqpEfzyRz7g" group="_IGKjZZLCEe6uqpEfzyRz7g _IGKjZpLCEe6uqpEfzyRz7g _IGKjZ5LCEe6uqpEfzyRz7g _IGKjaJLCEe6uqpEfzyRz7g">
+      <edge xmi:type="uml:ControlFlow" xmi:id="_IGKjaZLCEe6uqpEfzyRz7g" inPartition="_IGKjZZLCEe6uqpEfzyRz7g" target="_IGKjpZLCEe6uqpEfzyRz7g" source="_IGKjpJLCEe6uqpEfzyRz7g"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_IGKjapLCEe6uqpEfzyRz7g" target="_IGKjqZLCEe6uqpEfzyRz7g" source="_IGKjpZLCEe6uqpEfzyRz7g"/>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_IGKja5LCEe6uqpEfzyRz7g" target="_IGKjp5LCEe6uqpEfzyRz7g" source="_IGKjqpLCEe6uqpEfzyRz7g">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_IGKjbJLCEe6uqpEfzyRz7g" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_IGKjbZLCEe6uqpEfzyRz7g" value="1"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_IGKjbpLCEe6uqpEfzyRz7g" inPartition="_IGKjZZLCEe6uqpEfzyRz7g" target="_IGKjrpLCEe6uqpEfzyRz7g" source="_IGKjppLCEe6uqpEfzyRz7g"/>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_IGKjb5LCEe6uqpEfzyRz7g" target="_IGKjspLCEe6uqpEfzyRz7g" source="_IGKjr5LCEe6uqpEfzyRz7g">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_IGKjcJLCEe6uqpEfzyRz7g" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_IGKjcZLCEe6uqpEfzyRz7g" value="1"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_IGKjcpLCEe6uqpEfzyRz7g" name="[User info not according to format]" target="_IGKjppLCEe6uqpEfzyRz7g" source="_IGKjsZLCEe6uqpEfzyRz7g"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_IGKjc5LCEe6uqpEfzyRz7g" name="[Login info wrong]" target="_IGKjtJLCEe6uqpEfzyRz7g" source="_IGKjsZLCEe6uqpEfzyRz7g"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_IGKjdJLCEe6uqpEfzyRz7g" target="_IGKjt5LCEe6uqpEfzyRz7g" source="_IGKjtpLCEe6uqpEfzyRz7g"/>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_IGKjdZLCEe6uqpEfzyRz7g" target="_IGKju5LCEe6uqpEfzyRz7g" source="_IGKjuJLCEe6uqpEfzyRz7g">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_IGKjdpLCEe6uqpEfzyRz7g" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_IGKjd5LCEe6uqpEfzyRz7g" value="1"/>
+      </edge>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_IGKjeJLCEe6uqpEfzyRz7g" target="_IGKjwZLCEe6uqpEfzyRz7g" source="_IGKjvpLCEe6uqpEfzyRz7g">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_IGKjeZLCEe6uqpEfzyRz7g" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_IGKjepLCEe6uqpEfzyRz7g" value="1"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_IGKje5LCEe6uqpEfzyRz7g" inPartition="_IGKjZZLCEe6uqpEfzyRz7g" target="_IGKjvZLCEe6uqpEfzyRz7g" source="_IGKjupLCEe6uqpEfzyRz7g"/>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_IGKjfJLCEe6uqpEfzyRz7g" target="_IGKjxpLCEe6uqpEfzyRz7g" source="_IGKjw5LCEe6uqpEfzyRz7g">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_IGKjfZLCEe6uqpEfzyRz7g" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_IGKjfpLCEe6uqpEfzyRz7g" value="1"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_IGKjf5LCEe6uqpEfzyRz7g" inPartition="_IGKjZZLCEe6uqpEfzyRz7g" target="_IGKjyJLCEe6uqpEfzyRz7g" source="_IGKjxZLCEe6uqpEfzyRz7g"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_IGKjgJLCEe6uqpEfzyRz7g" target="_IGKjyZLCEe6uqpEfzyRz7g" source="_IGKjyJLCEe6uqpEfzyRz7g"/>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_IGKjgZLCEe6uqpEfzyRz7g" target="_IGKjzZLCEe6uqpEfzyRz7g" source="_IGKjypLCEe6uqpEfzyRz7g">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_IGKjgpLCEe6uqpEfzyRz7g" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_IGKjg5LCEe6uqpEfzyRz7g" value="1"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_IGKjhJLCEe6uqpEfzyRz7g" inPartition="_IGKjZZLCEe6uqpEfzyRz7g" target="_IGKjz5LCEe6uqpEfzyRz7g" source="_IGKjzJLCEe6uqpEfzyRz7g"/>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_IGKjhZLCEe6uqpEfzyRz7g" target="_IGKj05LCEe6uqpEfzyRz7g" source="_IGKj0JLCEe6uqpEfzyRz7g">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_IGKjhpLCEe6uqpEfzyRz7g" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_IGKjh5LCEe6uqpEfzyRz7g" value="1"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_IGKjiJLCEe6uqpEfzyRz7g" name="[Login details verified]" target="_IGKjtpLCEe6uqpEfzyRz7g" source="_IGKjtZLCEe6uqpEfzyRz7g"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_IGKjiZLCEe6uqpEfzyRz7g" inPartition="_IGKjZpLCEe6uqpEfzyRz7g" target="_IGKj1pLCEe6uqpEfzyRz7g" source="_IGKj1ZLCEe6uqpEfzyRz7g"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_IGKjipLCEe6uqpEfzyRz7g" inPartition="_IGKjZpLCEe6uqpEfzyRz7g" target="_IGKj15LCEe6uqpEfzyRz7g" source="_IGKj1pLCEe6uqpEfzyRz7g"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_IGKji5LCEe6uqpEfzyRz7g" target="_IGKjqZLCEe6uqpEfzyRz7g" source="_IGKj15LCEe6uqpEfzyRz7g"/>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_IGKjjJLCEe6uqpEfzyRz7g" target="_IGKj2ZLCEe6uqpEfzyRz7g" source="_IGKjrJLCEe6uqpEfzyRz7g">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_IGKjjZLCEe6uqpEfzyRz7g" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_IGKjjpLCEe6uqpEfzyRz7g" value="1"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_IGKjj5LCEe6uqpEfzyRz7g" inPartition="_IGKjZpLCEe6uqpEfzyRz7g" target="_IGKj25LCEe6uqpEfzyRz7g" source="_IGKj2JLCEe6uqpEfzyRz7g"/>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_IGKjkJLCEe6uqpEfzyRz7g" target="_IGKjspLCEe6uqpEfzyRz7g" source="_IGKj3JLCEe6uqpEfzyRz7g">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_IGKjkZLCEe6uqpEfzyRz7g" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_IGKjkpLCEe6uqpEfzyRz7g" value="1"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_IGKjk5LCEe6uqpEfzyRz7g" name="[details in wrong format]" target="_IGKj25LCEe6uqpEfzyRz7g" source="_IGKjsZLCEe6uqpEfzyRz7g"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_IGKjlJLCEe6uqpEfzyRz7g" target="_IGKj4ZLCEe6uqpEfzyRz7g" source="_IGKjsZLCEe6uqpEfzyRz7g"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_IGKjlZLCEe6uqpEfzyRz7g" target="_IGKj4pLCEe6uqpEfzyRz7g" source="_IGKj4ZLCEe6uqpEfzyRz7g"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_IGKjlpLCEe6uqpEfzyRz7g" target="_IGKj45LCEe6uqpEfzyRz7g" source="_IGKj4pLCEe6uqpEfzyRz7g"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_IGKjl5LCEe6uqpEfzyRz7g" target="_IGKjtZLCEe6uqpEfzyRz7g" source="_IGKj45LCEe6uqpEfzyRz7g"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_IGKjmJLCEe6uqpEfzyRz7g" target="_IGKjtZLCEe6uqpEfzyRz7g" source="_IGKjtJLCEe6uqpEfzyRz7g"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_IGKjmZLCEe6uqpEfzyRz7g" name="[Login info wrong]" target="_IGKj45LCEe6uqpEfzyRz7g" source="_IGKjtZLCEe6uqpEfzyRz7g"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_IGKjmpLCEe6uqpEfzyRz7g" target="_IGKj5JLCEe6uqpEfzyRz7g" source="_IGKjtZLCEe6uqpEfzyRz7g"/>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_IGKjm5LCEe6uqpEfzyRz7g" target="_IGKj6ZLCEe6uqpEfzyRz7g" source="_IGKj5pLCEe6uqpEfzyRz7g">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_IGKjnJLCEe6uqpEfzyRz7g" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_IGKjnZLCEe6uqpEfzyRz7g" value="1"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_IGKjnpLCEe6uqpEfzyRz7g" inPartition="_IGKjZpLCEe6uqpEfzyRz7g" target="_IGKj7JLCEe6uqpEfzyRz7g" source="_IGKj6JLCEe6uqpEfzyRz7g"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_IGKjn5LCEe6uqpEfzyRz7g" target="_IGKj65LCEe6uqpEfzyRz7g" source="_IGKj7JLCEe6uqpEfzyRz7g"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_IGKjoJLCEe6uqpEfzyRz7g" target="_IGKj7ZLCEe6uqpEfzyRz7g" source="_IGKj65LCEe6uqpEfzyRz7g"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_IGKjoZLCEe6uqpEfzyRz7g" target="_IGKjpJLCEe6uqpEfzyRz7g" source="_IGKj7ZLCEe6uqpEfzyRz7g"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_IGKjopLCEe6uqpEfzyRz7g" target="_IGKj7pLCEe6uqpEfzyRz7g" source="_IGKj0pLCEe6uqpEfzyRz7g"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_IGKjo5LCEe6uqpEfzyRz7g" inPartition="_IGKjZpLCEe6uqpEfzyRz7g" target="_IGKj75LCEe6uqpEfzyRz7g" source="_IGKj7pLCEe6uqpEfzyRz7g"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_IGKjZZLCEe6uqpEfzyRz7g" name="Job seeker" node="_IGKjpJLCEe6uqpEfzyRz7g _IGKjpZLCEe6uqpEfzyRz7g _IGKjppLCEe6uqpEfzyRz7g _IGKjp5LCEe6uqpEfzyRz7g _IGKjrpLCEe6uqpEfzyRz7g _IGKjr5LCEe6uqpEfzyRz7g _IGKjtJLCEe6uqpEfzyRz7g _IGKjtpLCEe6uqpEfzyRz7g _IGKjupLCEe6uqpEfzyRz7g _IGKju5LCEe6uqpEfzyRz7g _IGKjvZLCEe6uqpEfzyRz7g _IGKjvpLCEe6uqpEfzyRz7g _IGKjxZLCEe6uqpEfzyRz7g _IGKjxpLCEe6uqpEfzyRz7g _IGKjyJLCEe6uqpEfzyRz7g _IGKjzJLCEe6uqpEfzyRz7g _IGKjzZLCEe6uqpEfzyRz7g _IGKjz5LCEe6uqpEfzyRz7g _IGKj0JLCEe6uqpEfzyRz7g" edge="_IGKjaZLCEe6uqpEfzyRz7g _IGKjbpLCEe6uqpEfzyRz7g _IGKje5LCEe6uqpEfzyRz7g _IGKjf5LCEe6uqpEfzyRz7g _IGKjhJLCEe6uqpEfzyRz7g"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_IGKjZpLCEe6uqpEfzyRz7g" name="Company" node="_IGKj1ZLCEe6uqpEfzyRz7g _IGKj1pLCEe6uqpEfzyRz7g _IGKj15LCEe6uqpEfzyRz7g _IGKj2JLCEe6uqpEfzyRz7g _IGKj25LCEe6uqpEfzyRz7g _IGKj3pLCEe6uqpEfzyRz7g _IGKj4ZLCEe6uqpEfzyRz7g _IGKj45LCEe6uqpEfzyRz7g _IGKj5JLCEe6uqpEfzyRz7g _IGKj6JLCEe6uqpEfzyRz7g _IGKj6ZLCEe6uqpEfzyRz7g _IGKj7JLCEe6uqpEfzyRz7g _IGKj7ZLCEe6uqpEfzyRz7g _IGKj7pLCEe6uqpEfzyRz7g _IGKj75LCEe6uqpEfzyRz7g" edge="_IGKjiZLCEe6uqpEfzyRz7g _IGKjipLCEe6uqpEfzyRz7g _IGKjj5LCEe6uqpEfzyRz7g _IGKjnpLCEe6uqpEfzyRz7g _IGKjo5LCEe6uqpEfzyRz7g"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_IGKjZ5LCEe6uqpEfzyRz7g" name="System" node="_IGKjqZLCEe6uqpEfzyRz7g _IGKjqpLCEe6uqpEfzyRz7g _IGKjsZLCEe6uqpEfzyRz7g _IGKjspLCEe6uqpEfzyRz7g _IGKjtZLCEe6uqpEfzyRz7g _IGKjt5LCEe6uqpEfzyRz7g _IGKjuJLCEe6uqpEfzyRz7g _IGKjwJLCEe6uqpEfzyRz7g _IGKjwZLCEe6uqpEfzyRz7g _IGKjw5LCEe6uqpEfzyRz7g _IGKjyZLCEe6uqpEfzyRz7g _IGKjypLCEe6uqpEfzyRz7g _IGKj0pLCEe6uqpEfzyRz7g _IGKj05LCEe6uqpEfzyRz7g _IGKj5ZLCEe6uqpEfzyRz7g _IGKj5pLCEe6uqpEfzyRz7g _IGKj65LCEe6uqpEfzyRz7g"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_IGKjaJLCEe6uqpEfzyRz7g" name="Admin" node="_IGKj4pLCEe6uqpEfzyRz7g"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_IGKjpJLCEe6uqpEfzyRz7g" name="Navigate to site" visibility="public" incoming="_IGKjoZLCEe6uqpEfzyRz7g" outgoing="_IGKjaZLCEe6uqpEfzyRz7g" inPartition="_IGKjZZLCEe6uqpEfzyRz7g"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_IGKjpZLCEe6uqpEfzyRz7g" name="Click on signup" incoming="_IGKjaZLCEe6uqpEfzyRz7g" outgoing="_IGKjapLCEe6uqpEfzyRz7g" inPartition="_IGKjZZLCEe6uqpEfzyRz7g"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_IGKjppLCEe6uqpEfzyRz7g" name="Fill registration form" incoming="_IGKjcpLCEe6uqpEfzyRz7g" outgoing="_IGKjbpLCEe6uqpEfzyRz7g" inPartition="_IGKjZZLCEe6uqpEfzyRz7g">
+        <inputValue xmi:type="uml:InputPin" xmi:id="_IGKjp5LCEe6uqpEfzyRz7g" name="Registration Form" incoming="_IGKja5LCEe6uqpEfzyRz7g" inPartition="_IGKjZZLCEe6uqpEfzyRz7g">
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_IGKjqJLCEe6uqpEfzyRz7g" value="1"/>
+        </inputValue>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_IGKjqZLCEe6uqpEfzyRz7g" name="Display registration form" incoming="_IGKjapLCEe6uqpEfzyRz7g _IGKji5LCEe6uqpEfzyRz7g" inPartition="_IGKjZ5LCEe6uqpEfzyRz7g">
+        <outputValue xmi:type="uml:OutputPin" xmi:id="_IGKjqpLCEe6uqpEfzyRz7g" name="Registration Form" outgoing="_IGKja5LCEe6uqpEfzyRz7g" inPartition="_IGKjZ5LCEe6uqpEfzyRz7g">
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_IGKjq5LCEe6uqpEfzyRz7g" value="1"/>
+        </outputValue>
+        <outputValue xmi:type="uml:OutputPin" xmi:id="_IGKjrJLCEe6uqpEfzyRz7g" name="OutputPin2" outgoing="_IGKjjJLCEe6uqpEfzyRz7g">
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_IGKjrZLCEe6uqpEfzyRz7g" value="1"/>
+        </outputValue>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_IGKjrpLCEe6uqpEfzyRz7g" name="Submit Form" incoming="_IGKjbpLCEe6uqpEfzyRz7g" inPartition="_IGKjZZLCEe6uqpEfzyRz7g">
+        <outputValue xmi:type="uml:OutputPin" xmi:id="_IGKjr5LCEe6uqpEfzyRz7g" name="Filled form" outgoing="_IGKjb5LCEe6uqpEfzyRz7g" inPartition="_IGKjZZLCEe6uqpEfzyRz7g">
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_IGKjsJLCEe6uqpEfzyRz7g" value="1"/>
+        </outputValue>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_IGKjsZLCEe6uqpEfzyRz7g" name="Check user details" outgoing="_IGKjcpLCEe6uqpEfzyRz7g _IGKjc5LCEe6uqpEfzyRz7g _IGKjk5LCEe6uqpEfzyRz7g _IGKjlJLCEe6uqpEfzyRz7g" inPartition="_IGKjZ5LCEe6uqpEfzyRz7g">
+        <inputValue xmi:type="uml:InputPin" xmi:id="_IGKjspLCEe6uqpEfzyRz7g" name="Filled form" incoming="_IGKjb5LCEe6uqpEfzyRz7g _IGKjkJLCEe6uqpEfzyRz7g" inPartition="_IGKjZ5LCEe6uqpEfzyRz7g">
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_IGKjs5LCEe6uqpEfzyRz7g" value="1"/>
+        </inputValue>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_IGKjtJLCEe6uqpEfzyRz7g" name="Login" incoming="_IGKjc5LCEe6uqpEfzyRz7g" outgoing="_IGKjmJLCEe6uqpEfzyRz7g" inPartition="_IGKjZZLCEe6uqpEfzyRz7g"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_IGKjtZLCEe6uqpEfzyRz7g" name="Verify login details" incoming="_IGKjl5LCEe6uqpEfzyRz7g _IGKjmJLCEe6uqpEfzyRz7g" outgoing="_IGKjiJLCEe6uqpEfzyRz7g _IGKjmZLCEe6uqpEfzyRz7g _IGKjmpLCEe6uqpEfzyRz7g" inPartition="_IGKjZ5LCEe6uqpEfzyRz7g"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_IGKjtpLCEe6uqpEfzyRz7g" name="Open job listings" incoming="_IGKjiJLCEe6uqpEfzyRz7g" outgoing="_IGKjdJLCEe6uqpEfzyRz7g" inPartition="_IGKjZZLCEe6uqpEfzyRz7g"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_IGKjt5LCEe6uqpEfzyRz7g" name="Return job listings" incoming="_IGKjdJLCEe6uqpEfzyRz7g" inPartition="_IGKjZ5LCEe6uqpEfzyRz7g">
+        <outputValue xmi:type="uml:OutputPin" xmi:id="_IGKjuJLCEe6uqpEfzyRz7g" name="Job listings" outgoing="_IGKjdZLCEe6uqpEfzyRz7g" inPartition="_IGKjZ5LCEe6uqpEfzyRz7g">
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_IGKjuZLCEe6uqpEfzyRz7g" value="1"/>
+        </outputValue>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_IGKjupLCEe6uqpEfzyRz7g" name="View job listings" outgoing="_IGKje5LCEe6uqpEfzyRz7g" inPartition="_IGKjZZLCEe6uqpEfzyRz7g">
+        <inputValue xmi:type="uml:InputPin" xmi:id="_IGKju5LCEe6uqpEfzyRz7g" name="Job listings" incoming="_IGKjdZLCEe6uqpEfzyRz7g" inPartition="_IGKjZZLCEe6uqpEfzyRz7g">
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_IGKjvJLCEe6uqpEfzyRz7g" value="1"/>
+        </inputValue>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_IGKjvZLCEe6uqpEfzyRz7g" name="Filter job listings" incoming="_IGKje5LCEe6uqpEfzyRz7g" inPartition="_IGKjZZLCEe6uqpEfzyRz7g">
+        <outputValue xmi:type="uml:OutputPin" xmi:id="_IGKjvpLCEe6uqpEfzyRz7g" name="Filtering Requirements" outgoing="_IGKjeJLCEe6uqpEfzyRz7g" inPartition="_IGKjZZLCEe6uqpEfzyRz7g">
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_IGKjv5LCEe6uqpEfzyRz7g" value="1"/>
+        </outputValue>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_IGKjwJLCEe6uqpEfzyRz7g" name="Returned filtered job listings" inPartition="_IGKjZ5LCEe6uqpEfzyRz7g">
+        <inputValue xmi:type="uml:InputPin" xmi:id="_IGKjwZLCEe6uqpEfzyRz7g" name="Filterings requirements" incoming="_IGKjeJLCEe6uqpEfzyRz7g" inPartition="_IGKjZ5LCEe6uqpEfzyRz7g">
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_IGKjwpLCEe6uqpEfzyRz7g" value="1"/>
+        </inputValue>
+        <outputValue xmi:type="uml:OutputPin" xmi:id="_IGKjw5LCEe6uqpEfzyRz7g" name="Filtered jobs" outgoing="_IGKjfJLCEe6uqpEfzyRz7g" inPartition="_IGKjZ5LCEe6uqpEfzyRz7g">
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_IGKjxJLCEe6uqpEfzyRz7g" value="1"/>
+        </outputValue>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_IGKjxZLCEe6uqpEfzyRz7g" name="Receive selected jobs" outgoing="_IGKjf5LCEe6uqpEfzyRz7g" inPartition="_IGKjZZLCEe6uqpEfzyRz7g">
+        <inputValue xmi:type="uml:InputPin" xmi:id="_IGKjxpLCEe6uqpEfzyRz7g" name="Filtered jobs" incoming="_IGKjfJLCEe6uqpEfzyRz7g" inPartition="_IGKjZZLCEe6uqpEfzyRz7g">
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_IGKjx5LCEe6uqpEfzyRz7g" value="1"/>
+        </inputValue>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_IGKjyJLCEe6uqpEfzyRz7g" name="Select a job" incoming="_IGKjf5LCEe6uqpEfzyRz7g" outgoing="_IGKjgJLCEe6uqpEfzyRz7g" inPartition="_IGKjZZLCEe6uqpEfzyRz7g"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_IGKjyZLCEe6uqpEfzyRz7g" name="Send job window" incoming="_IGKjgJLCEe6uqpEfzyRz7g" inPartition="_IGKjZ5LCEe6uqpEfzyRz7g">
+        <outputValue xmi:type="uml:OutputPin" xmi:id="_IGKjypLCEe6uqpEfzyRz7g" name="job window" outgoing="_IGKjgZLCEe6uqpEfzyRz7g" inPartition="_IGKjZ5LCEe6uqpEfzyRz7g">
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_IGKjy5LCEe6uqpEfzyRz7g" value="1"/>
+        </outputValue>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_IGKjzJLCEe6uqpEfzyRz7g" name="Read about job" outgoing="_IGKjhJLCEe6uqpEfzyRz7g" inPartition="_IGKjZZLCEe6uqpEfzyRz7g">
+        <inputValue xmi:type="uml:InputPin" xmi:id="_IGKjzZLCEe6uqpEfzyRz7g" name="job window" incoming="_IGKjgZLCEe6uqpEfzyRz7g" inPartition="_IGKjZZLCEe6uqpEfzyRz7g">
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_IGKjzpLCEe6uqpEfzyRz7g" value="1"/>
+        </inputValue>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_IGKjz5LCEe6uqpEfzyRz7g" name="Apply" incoming="_IGKjhJLCEe6uqpEfzyRz7g" inPartition="_IGKjZZLCEe6uqpEfzyRz7g">
+        <outputValue xmi:type="uml:OutputPin" xmi:id="_IGKj0JLCEe6uqpEfzyRz7g" name="Application" outgoing="_IGKjhZLCEe6uqpEfzyRz7g" inPartition="_IGKjZZLCEe6uqpEfzyRz7g">
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_IGKj0ZLCEe6uqpEfzyRz7g" value="1"/>
+        </outputValue>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_IGKj0pLCEe6uqpEfzyRz7g" name="Record application" outgoing="_IGKjopLCEe6uqpEfzyRz7g" inPartition="_IGKjZ5LCEe6uqpEfzyRz7g">
+        <inputValue xmi:type="uml:InputPin" xmi:id="_IGKj05LCEe6uqpEfzyRz7g" name="Application" incoming="_IGKjhZLCEe6uqpEfzyRz7g" inPartition="_IGKjZ5LCEe6uqpEfzyRz7g">
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_IGKj1JLCEe6uqpEfzyRz7g" value="1"/>
+        </inputValue>
+      </node>
+      <node xmi:type="uml:InitialNode" xmi:id="_IGKj1ZLCEe6uqpEfzyRz7g" name="InitialNode46" outgoing="_IGKjiZLCEe6uqpEfzyRz7g" inPartition="_IGKjZpLCEe6uqpEfzyRz7g"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_IGKj1pLCEe6uqpEfzyRz7g" name="Navigate to site" visibility="public" incoming="_IGKjiZLCEe6uqpEfzyRz7g" outgoing="_IGKjipLCEe6uqpEfzyRz7g" inPartition="_IGKjZpLCEe6uqpEfzyRz7g"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_IGKj15LCEe6uqpEfzyRz7g" name="Click on signup" incoming="_IGKjipLCEe6uqpEfzyRz7g" outgoing="_IGKji5LCEe6uqpEfzyRz7g" inPartition="_IGKjZpLCEe6uqpEfzyRz7g"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_IGKj2JLCEe6uqpEfzyRz7g" name="Fill registration form" outgoing="_IGKjj5LCEe6uqpEfzyRz7g" inPartition="_IGKjZpLCEe6uqpEfzyRz7g">
+        <inputValue xmi:type="uml:InputPin" xmi:id="_IGKj2ZLCEe6uqpEfzyRz7g" name="Registration Form" incoming="_IGKjjJLCEe6uqpEfzyRz7g">
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_IGKj2pLCEe6uqpEfzyRz7g" value="1"/>
+        </inputValue>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_IGKj25LCEe6uqpEfzyRz7g" name="Submit Form" incoming="_IGKjj5LCEe6uqpEfzyRz7g _IGKjk5LCEe6uqpEfzyRz7g" inPartition="_IGKjZpLCEe6uqpEfzyRz7g">
+        <outputValue xmi:type="uml:OutputPin" xmi:id="_IGKj3JLCEe6uqpEfzyRz7g" name="Filled form" outgoing="_IGKjkJLCEe6uqpEfzyRz7g">
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_IGKj3ZLCEe6uqpEfzyRz7g" value="1"/>
+        </outputValue>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_IGKj3pLCEe6uqpEfzyRz7g" name="Submit Form" inPartition="_IGKjZpLCEe6uqpEfzyRz7g">
+        <outputValue xmi:type="uml:OutputPin" xmi:id="_IGKj35LCEe6uqpEfzyRz7g" name="Filled form">
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_IGKj4JLCEe6uqpEfzyRz7g" value="1"/>
+        </outputValue>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_IGKj4ZLCEe6uqpEfzyRz7g" name="Wait for admin approval" incoming="_IGKjlJLCEe6uqpEfzyRz7g" outgoing="_IGKjlZLCEe6uqpEfzyRz7g" inPartition="_IGKjZpLCEe6uqpEfzyRz7g"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_IGKj4pLCEe6uqpEfzyRz7g" name="Admin approval" incoming="_IGKjlZLCEe6uqpEfzyRz7g" outgoing="_IGKjlpLCEe6uqpEfzyRz7g" inPartition="_IGKjaJLCEe6uqpEfzyRz7g"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_IGKj45LCEe6uqpEfzyRz7g" name="Login" incoming="_IGKjlpLCEe6uqpEfzyRz7g _IGKjmZLCEe6uqpEfzyRz7g" outgoing="_IGKjl5LCEe6uqpEfzyRz7g" inPartition="_IGKjZpLCEe6uqpEfzyRz7g"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_IGKj5JLCEe6uqpEfzyRz7g" name="Create job" incoming="_IGKjmpLCEe6uqpEfzyRz7g" inPartition="_IGKjZpLCEe6uqpEfzyRz7g"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_IGKj5ZLCEe6uqpEfzyRz7g" name="Send job creation window" inPartition="_IGKjZ5LCEe6uqpEfzyRz7g">
+        <outputValue xmi:type="uml:OutputPin" xmi:id="_IGKj5pLCEe6uqpEfzyRz7g" name="Job form" outgoing="_IGKjm5LCEe6uqpEfzyRz7g" inPartition="_IGKjZ5LCEe6uqpEfzyRz7g">
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_IGKj55LCEe6uqpEfzyRz7g" value="1"/>
+        </outputValue>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_IGKj6JLCEe6uqpEfzyRz7g" name="Fill form" outgoing="_IGKjnpLCEe6uqpEfzyRz7g" inPartition="_IGKjZpLCEe6uqpEfzyRz7g">
+        <inputValue xmi:type="uml:InputPin" xmi:id="_IGKj6ZLCEe6uqpEfzyRz7g" name="Job form" incoming="_IGKjm5LCEe6uqpEfzyRz7g" inPartition="_IGKjZpLCEe6uqpEfzyRz7g">
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_IGKj6pLCEe6uqpEfzyRz7g" value="1"/>
+        </inputValue>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_IGKj65LCEe6uqpEfzyRz7g" name="Create job post" incoming="_IGKjn5LCEe6uqpEfzyRz7g" outgoing="_IGKjoJLCEe6uqpEfzyRz7g" inPartition="_IGKjZ5LCEe6uqpEfzyRz7g"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_IGKj7JLCEe6uqpEfzyRz7g" name="Submit job form" incoming="_IGKjnpLCEe6uqpEfzyRz7g" outgoing="_IGKjn5LCEe6uqpEfzyRz7g" inPartition="_IGKjZpLCEe6uqpEfzyRz7g"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_IGKj7ZLCEe6uqpEfzyRz7g" name="Wait for applications" incoming="_IGKjoJLCEe6uqpEfzyRz7g" outgoing="_IGKjoZLCEe6uqpEfzyRz7g" inPartition="_IGKjZpLCEe6uqpEfzyRz7g"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_IGKj7pLCEe6uqpEfzyRz7g" name="Review application" incoming="_IGKjopLCEe6uqpEfzyRz7g" outgoing="_IGKjo5LCEe6uqpEfzyRz7g" inPartition="_IGKjZpLCEe6uqpEfzyRz7g"/>
+      <node xmi:type="uml:ActivityFinalNode" xmi:id="_IGKj75LCEe6uqpEfzyRz7g" name="ActivityFinalNode78" incoming="_IGKjo5LCEe6uqpEfzyRz7g" inPartition="_IGKjZpLCEe6uqpEfzyRz7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_IGKj8JLCEe6uqpEfzyRz7g" name="Job portal">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_IGKj8ZLCEe6uqpEfzyRz7g" name="Sign up">
+        <include xmi:type="uml:Include" xmi:id="_IGKj8pLCEe6uqpEfzyRz7g" addition="_IGKj85LCEe6uqpEfzyRz7g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_IGKj85LCEe6uqpEfzyRz7g" name="Fill registration">
+        <include xmi:type="uml:Include" xmi:id="_IGKj9JLCEe6uqpEfzyRz7g" addition="_IGKj9ZLCEe6uqpEfzyRz7g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_IGKj9ZLCEe6uqpEfzyRz7g" name="Check information format">
+        <extend xmi:type="uml:Extend" xmi:id="_IGKj9pLCEe6uqpEfzyRz7g" extendedCase="_IGKj_JLCEe6uqpEfzyRz7g" extensionLocation="_IGKj_ZLCEe6uqpEfzyRz7g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_IGKj95LCEe6uqpEfzyRz7g" name="Wait for approval">
+        <extend xmi:type="uml:Extend" xmi:id="_IGKj-JLCEe6uqpEfzyRz7g" extendedCase="_IGKj-pLCEe6uqpEfzyRz7g" extensionLocation="_IGKj-5LCEe6uqpEfzyRz7g"/>
+        <extend xmi:type="uml:Extend" xmi:id="_IGKj-ZLCEe6uqpEfzyRz7g" extendedCase="_IGKj_pLCEe6uqpEfzyRz7g" extensionLocation="_IGKj_5LCEe6uqpEfzyRz7g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_IGKj-pLCEe6uqpEfzyRz7g" name="Approve account">
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_IGKj-5LCEe6uqpEfzyRz7g" name="ExtensionPoint1"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_IGKj_JLCEe6uqpEfzyRz7g" name="Error prompt">
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_IGKj_ZLCEe6uqpEfzyRz7g" name="ExtensionPoint1"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_IGKj_pLCEe6uqpEfzyRz7g" name="Reject account">
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_IGKj_5LCEe6uqpEfzyRz7g" name="ExtensionPoint1"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_IGKkAJLCEe6uqpEfzyRz7g" name="Login">
+        <include xmi:type="uml:Include" xmi:id="_IGKkAZLCEe6uqpEfzyRz7g" addition="_IGKkApLCEe6uqpEfzyRz7g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_IGKkApLCEe6uqpEfzyRz7g" name="Enter credentials">
+        <include xmi:type="uml:Include" xmi:id="_IGKkA5LCEe6uqpEfzyRz7g" addition="_IGKj9ZLCEe6uqpEfzyRz7g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_IGKkBJLCEe6uqpEfzyRz7g" name="Create job post">
+        <extend xmi:type="uml:Extend" xmi:id="_IGKkBZLCEe6uqpEfzyRz7g" extendedCase="_IGKkBpLCEe6uqpEfzyRz7g" extensionLocation="_IGKkB5LCEe6uqpEfzyRz7g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_IGKkBpLCEe6uqpEfzyRz7g" name="Submit job post">
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_IGKkB5LCEe6uqpEfzyRz7g" name="ExtensionPoint1"/>
+        <include xmi:type="uml:Include" xmi:id="_IGKkCJLCEe6uqpEfzyRz7g" addition="_IGKkCZLCEe6uqpEfzyRz7g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_IGKkCZLCEe6uqpEfzyRz7g" name="Store job post"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_IGKkCpLCEe6uqpEfzyRz7g" name="Review job applications">
+        <extend xmi:type="uml:Extend" xmi:id="_IGKkC5LCEe6uqpEfzyRz7g" extendedCase="_IGKkDZLCEe6uqpEfzyRz7g" extensionLocation="_IGKkDpLCEe6uqpEfzyRz7g"/>
+        <extend xmi:type="uml:Extend" xmi:id="_IGKkDJLCEe6uqpEfzyRz7g" extendedCase="_IGKkD5LCEe6uqpEfzyRz7g" extensionLocation="_IGKkEJLCEe6uqpEfzyRz7g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_IGKkDZLCEe6uqpEfzyRz7g" name="Accept candidate">
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_IGKkDpLCEe6uqpEfzyRz7g" name="ExtensionPoint1"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_IGKkD5LCEe6uqpEfzyRz7g" name="Reject candidate">
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_IGKkEJLCEe6uqpEfzyRz7g" name="ExtensionPoint1"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_IGKkEZLCEe6uqpEfzyRz7g" name="Company"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_IGKkEpLCEe6uqpEfzyRz7g" name="Admin"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_IGKkE5LCEe6uqpEfzyRz7g" name="System"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_IGKkFJLCEe6uqpEfzyRz7g" memberEnd="_IGKkF5LCEe6uqpEfzyRz7g _IGKkGJLCEe6uqpEfzyRz7g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IGKkFZLCEe6uqpEfzyRz7g" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IGKkFpLCEe6uqpEfzyRz7g" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKkF5LCEe6uqpEfzyRz7g" name="approve account" type="_IGKj-pLCEe6uqpEfzyRz7g" association="_IGKkFJLCEe6uqpEfzyRz7g"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKkGJLCEe6uqpEfzyRz7g" name="admin" type="_IGKkEpLCEe6uqpEfzyRz7g" association="_IGKkFJLCEe6uqpEfzyRz7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_IGKkGZLCEe6uqpEfzyRz7g" memberEnd="_IGKkHJLCEe6uqpEfzyRz7g _IGKkHZLCEe6uqpEfzyRz7g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IGKkGpLCEe6uqpEfzyRz7g" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IGKkG5LCEe6uqpEfzyRz7g" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKkHJLCEe6uqpEfzyRz7g" name="check information format" type="_IGKj9ZLCEe6uqpEfzyRz7g" association="_IGKkGZLCEe6uqpEfzyRz7g"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKkHZLCEe6uqpEfzyRz7g" name="system" type="_IGKkE5LCEe6uqpEfzyRz7g" association="_IGKkGZLCEe6uqpEfzyRz7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_IGKkHpLCEe6uqpEfzyRz7g" memberEnd="_IGKkIZLCEe6uqpEfzyRz7g _IGKkIpLCEe6uqpEfzyRz7g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IGKkH5LCEe6uqpEfzyRz7g" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IGKkIJLCEe6uqpEfzyRz7g" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKkIZLCEe6uqpEfzyRz7g" name="reject account" type="_IGKj_pLCEe6uqpEfzyRz7g" association="_IGKkHpLCEe6uqpEfzyRz7g"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKkIpLCEe6uqpEfzyRz7g" name="admin" type="_IGKkEpLCEe6uqpEfzyRz7g" association="_IGKkHpLCEe6uqpEfzyRz7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_IGKkI5LCEe6uqpEfzyRz7g" memberEnd="_IGKkJpLCEe6uqpEfzyRz7g _IGKkJ5LCEe6uqpEfzyRz7g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IGKkJJLCEe6uqpEfzyRz7g" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IGKkJZLCEe6uqpEfzyRz7g" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKkJpLCEe6uqpEfzyRz7g" name="enter credentials" type="_IGKkApLCEe6uqpEfzyRz7g" association="_IGKkI5LCEe6uqpEfzyRz7g"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKkJ5LCEe6uqpEfzyRz7g" name="admin" type="_IGKkEpLCEe6uqpEfzyRz7g" association="_IGKkI5LCEe6uqpEfzyRz7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_IGKkKJLCEe6uqpEfzyRz7g" memberEnd="_IGKkK5LCEe6uqpEfzyRz7g _IGKkLJLCEe6uqpEfzyRz7g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IGKkKZLCEe6uqpEfzyRz7g" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IGKkKpLCEe6uqpEfzyRz7g" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKkK5LCEe6uqpEfzyRz7g" name="sign up" type="_IGKj8ZLCEe6uqpEfzyRz7g" association="_IGKkKJLCEe6uqpEfzyRz7g"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKkLJLCEe6uqpEfzyRz7g" name="company" type="_IGKkEZLCEe6uqpEfzyRz7g" association="_IGKkKJLCEe6uqpEfzyRz7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_IGKkLZLCEe6uqpEfzyRz7g" memberEnd="_IGKkMJLCEe6uqpEfzyRz7g _IGKkMZLCEe6uqpEfzyRz7g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IGKkLpLCEe6uqpEfzyRz7g" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IGKkL5LCEe6uqpEfzyRz7g" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKkMJLCEe6uqpEfzyRz7g" name="wait for approval" type="_IGKj95LCEe6uqpEfzyRz7g" association="_IGKkLZLCEe6uqpEfzyRz7g"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKkMZLCEe6uqpEfzyRz7g" type="_IGKkKJLCEe6uqpEfzyRz7g" association="_IGKkLZLCEe6uqpEfzyRz7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_IGKkMpLCEe6uqpEfzyRz7g" memberEnd="_IGKkNZLCEe6uqpEfzyRz7g _IGKkNpLCEe6uqpEfzyRz7g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IGKkM5LCEe6uqpEfzyRz7g" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IGKkNJLCEe6uqpEfzyRz7g" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKkNZLCEe6uqpEfzyRz7g" name="login" type="_IGKkAJLCEe6uqpEfzyRz7g" association="_IGKkMpLCEe6uqpEfzyRz7g"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKkNpLCEe6uqpEfzyRz7g" type="_IGKkEZLCEe6uqpEfzyRz7g" association="_IGKkMpLCEe6uqpEfzyRz7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_IGKkN5LCEe6uqpEfzyRz7g" memberEnd="_IGKkOpLCEe6uqpEfzyRz7g _IGKkO5LCEe6uqpEfzyRz7g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IGKkOJLCEe6uqpEfzyRz7g" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IGKkOZLCEe6uqpEfzyRz7g" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKkOpLCEe6uqpEfzyRz7g" name="create job post" type="_IGKkBJLCEe6uqpEfzyRz7g" association="_IGKkN5LCEe6uqpEfzyRz7g"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKkO5LCEe6uqpEfzyRz7g" name="company" type="_IGKkEZLCEe6uqpEfzyRz7g" association="_IGKkN5LCEe6uqpEfzyRz7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_IGKkPJLCEe6uqpEfzyRz7g" memberEnd="_IGKkP5LCEe6uqpEfzyRz7g _IGKkQJLCEe6uqpEfzyRz7g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IGKkPZLCEe6uqpEfzyRz7g" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IGKkPpLCEe6uqpEfzyRz7g" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKkP5LCEe6uqpEfzyRz7g" name="store job post" type="_IGKkCZLCEe6uqpEfzyRz7g" association="_IGKkPJLCEe6uqpEfzyRz7g"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKkQJLCEe6uqpEfzyRz7g" name="system" type="_IGKkE5LCEe6uqpEfzyRz7g" association="_IGKkPJLCEe6uqpEfzyRz7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_IGKkQZLCEe6uqpEfzyRz7g" memberEnd="_IGKkRJLCEe6uqpEfzyRz7g _IGKkRZLCEe6uqpEfzyRz7g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IGKkQpLCEe6uqpEfzyRz7g" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IGKkQ5LCEe6uqpEfzyRz7g" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKkRJLCEe6uqpEfzyRz7g" name="review job applications" type="_IGKkCpLCEe6uqpEfzyRz7g" association="_IGKkQZLCEe6uqpEfzyRz7g"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IGKkRZLCEe6uqpEfzyRz7g" type="_IGKkN5LCEe6uqpEfzyRz7g" association="_IGKkQZLCEe6uqpEfzyRz7g"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
