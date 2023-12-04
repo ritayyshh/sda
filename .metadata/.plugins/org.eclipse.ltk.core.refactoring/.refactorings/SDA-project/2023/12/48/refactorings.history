@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SDA-project/usecase.di&apos; to &apos;SDA-project.di&apos;" description="Rename resource &apos;usecase.di&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="usecase.di" name="SDA-project.di" stamp="1701453324020" updateReferences="true"/>
+</session>

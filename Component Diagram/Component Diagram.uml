@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ztIMYJHjEe6m66V5OG95ow" name="Component Diagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_zxl1oJHjEe6m66V5OG95ow">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Component" xmi:id="_OyDOYJKsEe60zJKJvLMd4g" name="User">
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_X6oRkJKuEe60zJKJvLMd4g" name="Port1" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_RQ2zIJKsEe60zJKJvLMd4g" name="Company">
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_Yu4ZAJKuEe60zJKJvLMd4g" name="Port1" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_SYH9MJKsEe60zJKJvLMd4g" name="System">
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_aop-EJKuEe60zJKJvLMd4g" name="Port3" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_b5IxsJKyEe60zJKJvLMd4g" name="Port4" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_zG1AUJKyEe60zJKJvLMd4g" name="Port6" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_3t5SEJKyEe60zJKJvLMd4g" name="Port8" aggregation="composite"/>
+    <ownedConnector xmi:type="uml:Connector" xmi:id="_fcrw8JKyEe60zJKJvLMd4g" name="Connector5">
+      <end xmi:type="uml:ConnectorEnd" xmi:id="_fc7okJKyEe60zJKJvLMd4g" role="_gX9qQJKuEe60zJKJvLMd4g"/>
+      <end xmi:type="uml:ConnectorEnd" xmi:id="_fc8PoJKyEe60zJKJvLMd4g" role="_b5IxsJKyEe60zJKJvLMd4g"/>
+    </ownedConnector>
+    <ownedConnector xmi:type="uml:Connector" xmi:id="_0EpTcJKyEe60zJKJvLMd4g" name="Connector7">
+      <end xmi:type="uml:ConnectorEnd" xmi:id="_0EuzAJKyEe60zJKJvLMd4g" role="_jKajwJKuEe60zJKJvLMd4g"/>
+      <end xmi:type="uml:ConnectorEnd" xmi:id="_0EuzAZKyEe60zJKJvLMd4g" role="_zG1AUJKyEe60zJKJvLMd4g"/>
+    </ownedConnector>
+    <ownedConnector xmi:type="uml:Connector" xmi:id="_GN5X0JKzEe60zJKJvLMd4g" name="Connector9">
+      <end xmi:type="uml:ConnectorEnd" xmi:id="_GN8bIJKzEe60zJKJvLMd4g" role="_cwJPAJKuEe60zJKJvLMd4g"/>
+      <end xmi:type="uml:ConnectorEnd" xmi:id="_GN9CMJKzEe60zJKJvLMd4g" role="_aop-EJKuEe60zJKJvLMd4g"/>
+    </ownedConnector>
+    <ownedConnector xmi:type="uml:Connector" xmi:id="_HfuMEJKzEe60zJKJvLMd4g" name="Connector10">
+      <end xmi:type="uml:ConnectorEnd" xmi:id="_Hfx2cJKzEe60zJKJvLMd4g" role="_dwIsYJKuEe60zJKJvLMd4g"/>
+      <end xmi:type="uml:ConnectorEnd" xmi:id="_Hfx2cZKzEe60zJKJvLMd4g" role="_3t5SEJKyEe60zJKJvLMd4g"/>
+    </ownedConnector>
+    <packagedElement xmi:type="uml:Component" xmi:id="_ZdQ-cJKtEe60zJKJvLMd4g" name="Register">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_cwJPAJKuEe60zJKJvLMd4g" name="Port1" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_gX9qQJKuEe60zJKJvLMd4g" name="Port2" aggregation="composite"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_eF1sEJKtEe60zJKJvLMd4g" name="Login">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_dwIsYJKuEe60zJKJvLMd4g" name="Port1" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_jKajwJKuEe60zJKJvLMd4g" name="Port2" aggregation="composite"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_U6kr0JKsEe60zJKJvLMd4g" name="Admin">
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_h8DTMJKuEe60zJKJvLMd4g" name="Port1" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_WbRpkJKsEe60zJKJvLMd4g" name="Database">
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_lucC4JKyEe60zJKJvLMd4g" name="Port3" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_np8tUJKyEe60zJKJvLMd4g" name="Port4" aggregation="composite"/>
+    <ownedConnector xmi:type="uml:Connector" xmi:id="_o6K_EJKyEe60zJKJvLMd4g" name="Connector5">
+      <end xmi:type="uml:ConnectorEnd" xmi:id="_o6OpcJKyEe60zJKJvLMd4g" role="_mxBhQJKyEe60zJKJvLMd4g"/>
+      <end xmi:type="uml:ConnectorEnd" xmi:id="_o6PQgJKyEe60zJKJvLMd4g" role="_np8tUJKyEe60zJKJvLMd4g"/>
+    </ownedConnector>
+    <ownedConnector xmi:type="uml:Connector" xmi:id="_p5H6oJKyEe60zJKJvLMd4g" name="Connector6">
+      <end xmi:type="uml:ConnectorEnd" xmi:id="_p5K98JKyEe60zJKJvLMd4g" role="_kfSvMJKyEe60zJKJvLMd4g"/>
+      <end xmi:type="uml:ConnectorEnd" xmi:id="_p5K98ZKyEe60zJKJvLMd4g" role="_lucC4JKyEe60zJKJvLMd4g"/>
+    </ownedConnector>
+    <packagedElement xmi:type="uml:Component" xmi:id="_4FTh8JKxEe60zJKJvLMd4g" name="Store">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_kfSvMJKyEe60zJKJvLMd4g" name="Port1" aggregation="composite"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_5yT2UJKxEe60zJKJvLMd4g" name="Retrieve">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_mxBhQJKyEe60zJKJvLMd4g" name="Port1" aggregation="composite"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_YXjJAJKsEe60zJKJvLMd4g" name="Jobs">
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_a1DpEJKzEe60zJKJvLMd4g" name="Port4" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_jMU2AJKzEe60zJKJvLMd4g" name="Port6" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_lG5FQJKzEe60zJKJvLMd4g" name="Port7" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_wjK7UJKzEe60zJKJvLMd4g" name="Port10" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_G07tMJK0Ee60zJKJvLMd4g" name="Port12" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_N3-5MJK0Ee60zJKJvLMd4g" name="Port14" aggregation="composite"/>
+    <ownedConnector xmi:type="uml:Connector" xmi:id="_b2QnYJKzEe60zJKJvLMd4g" name="Connector5">
+      <end xmi:type="uml:ConnectorEnd" xmi:id="_b2TqsJKzEe60zJKJvLMd4g" role="_Z3hp0JKzEe60zJKJvLMd4g"/>
+      <end xmi:type="uml:ConnectorEnd" xmi:id="_b2URwJKzEe60zJKJvLMd4g" role="_a1DpEJKzEe60zJKJvLMd4g"/>
+    </ownedConnector>
+    <ownedConnector xmi:type="uml:Connector" xmi:id="_q8TZcJKzEe60zJKJvLMd4g" name="Connector8">
+      <end xmi:type="uml:ConnectorEnd" xmi:id="_q8XD0JKzEe60zJKJvLMd4g" role="_ip43UJKzEe60zJKJvLMd4g"/>
+      <end xmi:type="uml:ConnectorEnd" xmi:id="_q8XD0ZKzEe60zJKJvLMd4g" role="_jMU2AJKzEe60zJKJvLMd4g"/>
+    </ownedConnector>
+    <ownedConnector xmi:type="uml:Connector" xmi:id="_tHLVkJKzEe60zJKJvLMd4g" name="Connector9">
+      <end xmi:type="uml:ConnectorEnd" xmi:id="_tHO_8JKzEe60zJKJvLMd4g" role="_kKXyoJKzEe60zJKJvLMd4g"/>
+      <end xmi:type="uml:ConnectorEnd" xmi:id="_tHPnAJKzEe60zJKJvLMd4g" role="_lG5FQJKzEe60zJKJvLMd4g"/>
+    </ownedConnector>
+    <ownedConnector xmi:type="uml:Connector" xmi:id="_x-ZjMJKzEe60zJKJvLMd4g" name="Connector11">
+      <end xmi:type="uml:ConnectorEnd" xmi:id="_x-dNkJKzEe60zJKJvLMd4g" role="_vtIrMJKzEe60zJKJvLMd4g"/>
+      <end xmi:type="uml:ConnectorEnd" xmi:id="_x-d0oJKzEe60zJKJvLMd4g" role="_wjK7UJKzEe60zJKJvLMd4g"/>
+    </ownedConnector>
+    <ownedConnector xmi:type="uml:Connector" xmi:id="_LjuXkJK0Ee60zJKJvLMd4g" name="Connector13">
+      <end xmi:type="uml:ConnectorEnd" xmi:id="_LjypAJK0Ee60zJKJvLMd4g" role="_E5mB4JK0Ee60zJKJvLMd4g"/>
+      <end xmi:type="uml:ConnectorEnd" xmi:id="_LjzQEJK0Ee60zJKJvLMd4g" role="_G07tMJK0Ee60zJKJvLMd4g"/>
+    </ownedConnector>
+    <ownedConnector xmi:type="uml:Connector" xmi:id="_PADUgJK0Ee60zJKJvLMd4g" name="Connector15">
+      <end xmi:type="uml:ConnectorEnd" xmi:id="_PAFwwJK0Ee60zJKJvLMd4g" role="_NJTOQJK0Ee60zJKJvLMd4g"/>
+      <end xmi:type="uml:ConnectorEnd" xmi:id="_PAFwwZK0Ee60zJKJvLMd4g" role="_N3-5MJK0Ee60zJKJvLMd4g"/>
+    </ownedConnector>
+    <packagedElement xmi:type="uml:Component" xmi:id="__1QQMJKxEe60zJKJvLMd4g" name="SearchJobs">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_ip43UJKzEe60zJKJvLMd4g" name="Port1" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_E5mB4JK0Ee60zJKJvLMd4g" name="Port2" aggregation="composite"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_F8O1gJKyEe60zJKJvLMd4g" name="FilterJobs">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_kKXyoJKzEe60zJKJvLMd4g" name="Port1" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_NJTOQJK0Ee60zJKJvLMd4g" name="Port2" aggregation="composite"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_KSu7sJKyEe60zJKJvLMd4g" name="JobPost">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_Z3hp0JKzEe60zJKJvLMd4g" name="Port1" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_vtIrMJKzEe60zJKJvLMd4g" name="Port2" aggregation="composite"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_PZezEJKyEe60zJKJvLMd4g" name="Required"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_ScDMMJKyEe60zJKJvLMd4g" name="Provided"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_YiWcEJKyEe60zJKJvLMd4g" client="_h8DTMJKuEe60zJKJvLMd4g" supplier="_ScDMMJKyEe60zJKJvLMd4g"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_hd5awJKyEe60zJKJvLMd4g" client="_b5IxsJKyEe60zJKJvLMd4g" supplier="_PZezEJKyEe60zJKJvLMd4g"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_rijWkJKyEe60zJKJvLMd4g" name="Provided"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_uQT9UJKyEe60zJKJvLMd4g" name="Required"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_wkto4JKyEe60zJKJvLMd4g" client="_lucC4JKyEe60zJKJvLMd4g" supplier="_rijWkJKyEe60zJKJvLMd4g"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_x51owJKyEe60zJKJvLMd4g" client="_b5IxsJKyEe60zJKJvLMd4g" supplier="_uQT9UJKyEe60zJKJvLMd4g"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_67nyUJKyEe60zJKJvLMd4g" name="Provided"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_9Xf-4JKyEe60zJKJvLMd4g" name="Required"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_AfttAJKzEe60zJKJvLMd4g" client="_np8tUJKyEe60zJKJvLMd4g" supplier="_67nyUJKyEe60zJKJvLMd4g"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_ByGh8JKzEe60zJKJvLMd4g" client="_zG1AUJKyEe60zJKJvLMd4g" supplier="_9Xf-4JKyEe60zJKJvLMd4g"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_J9hrQJKzEe60zJKJvLMd4g" name="provided"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_P-LmIJKzEe60zJKJvLMd4g" name="Required"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_SqI2EJKzEe60zJKJvLMd4g" client="_aop-EJKuEe60zJKJvLMd4g" supplier="_J9hrQJKzEe60zJKJvLMd4g"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_TlGCcJKzEe60zJKJvLMd4g" client="_X6oRkJKuEe60zJKJvLMd4g" supplier="_P-LmIJKzEe60zJKJvLMd4g"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_Wf0uMJKzEe60zJKJvLMd4g" client="_Yu4ZAJKuEe60zJKJvLMd4g" supplier="_P-LmIJKzEe60zJKJvLMd4g"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_XVhnIJKzEe60zJKJvLMd4g" client="_3t5SEJKyEe60zJKJvLMd4g" supplier="_J9hrQJKzEe60zJKJvLMd4g"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_eYukIJKzEe60zJKJvLMd4g" client="_a1DpEJKzEe60zJKJvLMd4g" supplier="_uQT9UJKyEe60zJKJvLMd4g"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_fYTx0JKzEe60zJKJvLMd4g" client="_a1DpEJKzEe60zJKJvLMd4g" supplier="_9Xf-4JKyEe60zJKJvLMd4g"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_sINL4JKzEe60zJKJvLMd4g" client="_jMU2AJKzEe60zJKJvLMd4g" supplier="_9Xf-4JKyEe60zJKJvLMd4g"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_uN3Q0JKzEe60zJKJvLMd4g" client="_lG5FQJKzEe60zJKJvLMd4g" supplier="_9Xf-4JKyEe60zJKJvLMd4g"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_0cBcMJKzEe60zJKJvLMd4g" name="provdied"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_3kYUQJKzEe60zJKJvLMd4g" name="Required"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_-rtjUJKzEe60zJKJvLMd4g" client="_Yu4ZAJKuEe60zJKJvLMd4g" supplier="_3kYUQJKzEe60zJKJvLMd4g"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="__-WP4JKzEe60zJKJvLMd4g" client="_wjK7UJKzEe60zJKJvLMd4g" supplier="_0cBcMJKzEe60zJKJvLMd4g"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_P3YlIJK0Ee60zJKJvLMd4g" name="Provided"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_SpvYAJK0Ee60zJKJvLMd4g" name="Required"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_V2ExIJK0Ee60zJKJvLMd4g" client="_G07tMJK0Ee60zJKJvLMd4g" supplier="_P3YlIJK0Ee60zJKJvLMd4g"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_XauawJK0Ee60zJKJvLMd4g" client="_N3-5MJK0Ee60zJKJvLMd4g" supplier="_P3YlIJK0Ee60zJKJvLMd4g"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_aLi8kJK0Ee60zJKJvLMd4g" client="_X6oRkJKuEe60zJKJvLMd4g" supplier="_SpvYAJK0Ee60zJKJvLMd4g"/>
+</uml:Model>

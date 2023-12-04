@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;State Chart Diagram/employer.di&apos; to &apos;company.di&apos;" description="Rename resource &apos;employer.di&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="employer.di" name="company.di" stamp="1701682905824" updateReferences="true"/>
+</session>

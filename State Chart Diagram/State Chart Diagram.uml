@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_2VFioJEeEe6B37EJbwjRkw" name="State Chart Diagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_2W2dMJEeEe6B37EJbwjRkw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_2VfyUJEeEe6B37EJbwjRkw" name="UserPOV">
+    <region xmi:type="uml:Region" xmi:id="_2V0icJEeEe6B37EJbwjRkw" name="Region1">
+      <transition xmi:type="uml:Transition" xmi:id="_S7clIJKKEe6yKebeqvvSBQ" source="_9xYVEJEeEe6B37EJbwjRkw" target="_Qn9fkJKKEe6yKebeqvvSBQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_samOIJKMEe6yKebeqvvSBQ" source="_55H6sJKKEe6yKebeqvvSBQ" target="_n708wJKMEe6yKebeqvvSBQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_ILh3EJKQEe6yKebeqvvSBQ" source="_n708wJKMEe6yKebeqvvSBQ" target="_GwvUEJKQEe6yKebeqvvSBQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_JAjakJKQEe6yKebeqvvSBQ" name="user browses jobs" source="_GwvUEJKQEe6yKebeqvvSBQ" target="_BKVMkJKNEe6yKebeqvvSBQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_Jr_kQJKQEe6yKebeqvvSBQ" name="user settings" source="_GwvUEJKQEe6yKebeqvvSBQ" target="_BBi8oJKQEe6yKebeqvvSBQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_KQD6oJKQEe6yKebeqvvSBQ" name="view applications" source="_GwvUEJKQEe6yKebeqvvSBQ" target="_7aw6UJKPEe6yKebeqvvSBQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_K7CxUJKQEe6yKebeqvvSBQ" name="edits profile" source="_GwvUEJKQEe6yKebeqvvSBQ" target="_xVlhcJKMEe6yKebeqvvSBQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_Zcsc4JKQEe6yKebeqvvSBQ" name="search bar" source="_BKVMkJKNEe6yKebeqvvSBQ" target="_H9m3MJKNEe6yKebeqvvSBQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_b1A_IJKQEe6yKebeqvvSBQ" name="filter option" source="_BKVMkJKNEe6yKebeqvvSBQ" target="_LEtyEJKNEe6yKebeqvvSBQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_mpHa4JKQEe6yKebeqvvSBQ" source="_H9m3MJKNEe6yKebeqvvSBQ" target="_lnsaIJKQEe6yKebeqvvSBQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_naRLAJKQEe6yKebeqvvSBQ" source="_LEtyEJKNEe6yKebeqvvSBQ" target="_lnsaIJKQEe6yKebeqvvSBQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_upkqUJKQEe6yKebeqvvSBQ" name="user changes pass" source="_BBi8oJKQEe6yKebeqvvSBQ" target="_SxJx8JKQEe6yKebeqvvSBQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_0PrXMJKQEe6yKebeqvvSBQ" source="_SxJx8JKQEe6yKebeqvvSBQ" target="_lnsaIJKQEe6yKebeqvvSBQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_1Ha3gJKQEe6yKebeqvvSBQ" source="_7aw6UJKPEe6yKebeqvvSBQ" target="_lnsaIJKQEe6yKebeqvvSBQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_2nuzsJKQEe6yKebeqvvSBQ" source="_xVlhcJKMEe6yKebeqvvSBQ" target="_lnsaIJKQEe6yKebeqvvSBQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_4OHisJKQEe6yKebeqvvSBQ" name="logs out" source="_lnsaIJKQEe6yKebeqvvSBQ" target="_hTG_gJKQEe6yKebeqvvSBQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_5f56sJKQEe6yKebeqvvSBQ" source="_hTG_gJKQEe6yKebeqvvSBQ" target="_U96PkJHvEe6sPPJhhBkBtw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_DbjrgJKREe6yKebeqvvSBQ" name="logs in" source="_iml9cJKMEe6yKebeqvvSBQ" target="_55H6sJKKEe6yKebeqvvSBQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_GWXPwJKREe6yKebeqvvSBQ" name="user registers" source="_Qn9fkJKKEe6yKebeqvvSBQ" target="_iml9cJKMEe6yKebeqvvSBQ"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_9xYVEJEeEe6B37EJbwjRkw" name="Initial"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_U96PkJHvEe6sPPJhhBkBtw" name="Final"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Qn9fkJKKEe6yKebeqvvSBQ" name="start state"/>
+      <subvertex xmi:type="uml:State" xmi:id="_55H6sJKKEe6yKebeqvvSBQ" name="logged in"/>
+      <subvertex xmi:type="uml:State" xmi:id="_iml9cJKMEe6yKebeqvvSBQ" name="registered"/>
+      <subvertex xmi:type="uml:State" xmi:id="_n708wJKMEe6yKebeqvvSBQ" name="dashboard state"/>
+      <subvertex xmi:type="uml:State" xmi:id="_xVlhcJKMEe6yKebeqvvSBQ" name="edit profile state"/>
+      <subvertex xmi:type="uml:State" xmi:id="_BKVMkJKNEe6yKebeqvvSBQ" name="browse jobs state"/>
+      <subvertex xmi:type="uml:State" xmi:id="_H9m3MJKNEe6yKebeqvvSBQ" name="search state"/>
+      <subvertex xmi:type="uml:State" xmi:id="_LEtyEJKNEe6yKebeqvvSBQ" name="filter state"/>
+      <subvertex xmi:type="uml:State" xmi:id="_7aw6UJKPEe6yKebeqvvSBQ" name="applications state"/>
+      <subvertex xmi:type="uml:State" xmi:id="_BBi8oJKQEe6yKebeqvvSBQ" name="settings state"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_GwvUEJKQEe6yKebeqvvSBQ" name="Choice19" kind="choice"/>
+      <subvertex xmi:type="uml:State" xmi:id="_SxJx8JKQEe6yKebeqvvSBQ" name="change password state"/>
+      <subvertex xmi:type="uml:State" xmi:id="_hTG_gJKQEe6yKebeqvvSBQ" name="logged out"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_lnsaIJKQEe6yKebeqvvSBQ" name="Junction30" kind="junction"/>
+    </region>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_fMhPIJEfEe6B37EJbwjRkw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fMpK8JEfEe6B37EJbwjRkw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>

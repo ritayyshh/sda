@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_0emncJH1Ee6snPCN6-H1wA" name="employer">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_0gO_IJH1Ee6snPCN6-H1wA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_0fbG0JH1Ee6snPCN6-H1wA" name="CompanyPOV">
+    <region xmi:type="uml:Region" xmi:id="_0fcU8JH1Ee6snPCN6-H1wA" name="Region1">
+      <transition xmi:type="uml:Transition" xmi:id="_O8NHoJH2Ee6snPCN6-H1wA" source="_2HeCsJH1Ee6snPCN6-H1wA" target="_OOKBgJKIEe6yKebeqvvSBQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_YUByoJH2Ee6snPCN6-H1wA" source="_UOVIkJH2Ee6snPCN6-H1wA" target="_VcrLAJH2Ee6snPCN6-H1wA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_ipk80JKIEe6yKebeqvvSBQ" name="Review application" source="_6BF_oJH1Ee6snPCN6-H1wA" target="_h1U1YJKIEe6yKebeqvvSBQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_pdKwgJKIEe6yKebeqvvSBQ" name="Approves user application" source="_uUdPkJKIEe6yKebeqvvSBQ" target="_LSICkJH2Ee6snPCN6-H1wA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_s_9h0JKIEe6yKebeqvvSBQ" source="_h1U1YJKIEe6yKebeqvvSBQ" target="_uUdPkJKIEe6yKebeqvvSBQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_w3el8JKIEe6yKebeqvvSBQ" name="Rejects user" source="_uUdPkJKIEe6yKebeqvvSBQ" target="_p349oJKIEe6yKebeqvvSBQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_MhtRUJKJEe6yKebeqvvSBQ" source="_p349oJKIEe6yKebeqvvSBQ" target="_6SRFYJKIEe6yKebeqvvSBQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_NaAyUJKJEe6yKebeqvvSBQ" source="_LSICkJH2Ee6snPCN6-H1wA" target="_6SRFYJKIEe6yKebeqvvSBQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_ODwS4JKJEe6yKebeqvvSBQ" name="Click logout" source="_6SRFYJKIEe6yKebeqvvSBQ" target="_UOVIkJH2Ee6snPCN6-H1wA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_fTv-kJKKEe6yKebeqvvSBQ" source="_OOKBgJKIEe6yKebeqvvSBQ" target="_eiF4IJKKEe6yKebeqvvSBQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_g9xQYJKKEe6yKebeqvvSBQ" name="company applies for registration" source="_eiF4IJKKEe6yKebeqvvSBQ" target="_WAayAJKKEe6yKebeqvvSBQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_uGPigJKKEe6yKebeqvvSBQ" name="company logs in" source="_eiF4IJKKEe6yKebeqvvSBQ" target="_cc8wkJKKEe6yKebeqvvSBQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_vVN3EJKKEe6yKebeqvvSBQ" name="post jobs" source="_cc8wkJKKEe6yKebeqvvSBQ" target="_6BF_oJH1Ee6snPCN6-H1wA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_uA258JKPEe6yKebeqvvSBQ" name="check resume DB" source="_uUdPkJKIEe6yKebeqvvSBQ" target="_qBiksJKPEe6yKebeqvvSBQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_xWaggJKPEe6yKebeqvvSBQ" source="_qBiksJKPEe6yKebeqvvSBQ" target="_6SRFYJKIEe6yKebeqvvSBQ"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_2HeCsJH1Ee6snPCN6-H1wA" name="Initial1"/>
+      <subvertex xmi:type="uml:State" xmi:id="_6BF_oJH1Ee6snPCN6-H1wA" name="Jobs open"/>
+      <subvertex xmi:type="uml:State" xmi:id="_LSICkJH2Ee6snPCN6-H1wA" name="Approval"/>
+      <subvertex xmi:type="uml:State" xmi:id="_UOVIkJH2Ee6snPCN6-H1wA" name="Logout"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_VcrLAJH2Ee6snPCN6-H1wA" name="FinalState13"/>
+      <subvertex xmi:type="uml:State" xmi:id="_OOKBgJKIEe6yKebeqvvSBQ" name="start state"/>
+      <subvertex xmi:type="uml:State" xmi:id="_h1U1YJKIEe6yKebeqvvSBQ" name="Review"/>
+      <subvertex xmi:type="uml:State" xmi:id="_p349oJKIEe6yKebeqvvSBQ" name="Rejection"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_uUdPkJKIEe6yKebeqvvSBQ" name="Choice17" kind="choice"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_6SRFYJKIEe6yKebeqvvSBQ" name="Junction19" kind="junction"/>
+      <subvertex xmi:type="uml:State" xmi:id="_WAayAJKKEe6yKebeqvvSBQ" name="pending registration"/>
+      <subvertex xmi:type="uml:State" xmi:id="_cc8wkJKKEe6yKebeqvvSBQ" name="logged in"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_eiF4IJKKEe6yKebeqvvSBQ" name="Choice22" kind="choice"/>
+      <subvertex xmi:type="uml:State" xmi:id="_qBiksJKPEe6yKebeqvvSBQ" name="view resume"/>
+    </region>
+  </packagedElement>
+</uml:Model>
